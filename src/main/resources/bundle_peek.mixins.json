@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.bundlepeek.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["DrawContextMixin", "HandledScreenAccessor", "HandledScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

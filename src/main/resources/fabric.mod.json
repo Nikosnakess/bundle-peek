@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bundle_peek",
+  "version": "${version}",
+  "name": "Bundle Peek",
+  "description": "Hover a bundle to open its original contents tooltip, which stays open while your mouse is inside it. Click an item to take it, right-click to split it, shift-click to move it.",
+  "authors": ["Nikosnakes"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/bundle-peek",
+    "sources": "https://github.com/Nikosnakess/bundle-peek",
+    "issues": "https://github.com/Nikosnakess/bundle-peek/issues"
+  },
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.bundlepeek.BundlePeekClient"]
+  },
+  "mixins": ["bundle_peek.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
