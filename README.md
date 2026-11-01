@@ -52,7 +52,7 @@ java -cp out BundlePeekLogicTest
 
 ## Development
 
-Bundle Peek was designed, tested and published by Nikosnakes. The idea, the behaviour, the design choices, the in-game testing and the bug reports are mine. The code and the documentation text were written with the assistance of AI (Claude, by Anthropic), following my instructions.
+Bundle Peek was designed, tested and published by Nikosnakes. The idea, the behaviour I wanted, the in-game testing and the bug reports are mine. The code and the documentation text were written by an AI assistant (Claude, by Anthropic), following my instructions and revised after each of my tests.
 
 ## License
 
